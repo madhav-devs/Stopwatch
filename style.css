@@ -1,0 +1,60 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+label {
+    display: block;
+    font-size: 50px;
+    margin: 25px;
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#start {
+    background-color: green;
+    color: white;
+}
+
+#lap {
+    background-color: blue;
+    color: white;
+}
+
+#start.stop {
+    background-color: red;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
+
+#laps li {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+}
